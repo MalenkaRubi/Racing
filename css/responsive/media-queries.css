@@ -36,8 +36,8 @@ only screen and (max-width: 320px) {
 
 /* IPADS - PORTRAIT & LANDSCAPE */
 @media
-only screen and (min-device-width: 768px) and (max-device-width: 1024px),
-only screen and (min-width: 768px) and (max-width: 1024px) {
+only screen and (min-device-width: 480px) and (max-device-width: 1024px),
+only screen and (min-width: 480px) and (max-width: 1024px) {
     .wrapper    { width: 320px; margin: auto}
 
   .container						{ width: 95%; } /* edit how you see fit */
