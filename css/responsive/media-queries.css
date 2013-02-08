@@ -17,7 +17,7 @@ only screen and (min-width: 320px) and (max-width: 480px) {
 /* SMARTPHONES - LANDSCAPE */
 @media
 only screen and (min-width: 321px) {
-    .wrapper                        { width: 100%; }
+    .wrapper                        { width: 320px; margin: auto }
   .container						{ width: 95%; } /* edit how you see fit */
   .span_4                           { width: 100%}
   /* INSERT YOUR STYLES */
