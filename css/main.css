@@ -1,44 +1,44 @@
 body        { background-color: #303030; font-family: Arial, regular }
-.wrapper    { width: 320px; margin: auto; box-shadow: 30px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.5);
-             -moz-box-shadow: 0 0 30px rgba(0,0,0,0.5);  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); overflow: hidden; background-image: url("img/wrapperBG.png");
+.container    { width: 320px; margin: auto; box-shadow: 30px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.5);
+             -moz-box-shadow: 0 0 30px rgba(0,0,0,0.5);  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); overflow: hidden; background-image: url("../img/wrapperBG.png");
              background-repeat: repeat}
 h5          {margin: 0}
 
 .notif      { height: 27px; width: 100%; background-color: #1f1f1f; border-bottom: 1px solid black}
-.notif i    { height: 12px; width: 12px; background-image: url(img/header1.png);  float: left; margin-left: 10px;
+.notif i    { height: 12px; width: 12px; background-image: url(../img/header1.png);  float: left; margin-left: 10px;
               margin-top: 7px; margin-right: 7px; }
 .notif h5   { font-family: Arial, crisp, regular; font-size: 14px; color: #5cd7ff; padding: 5px}
 
-.logo       { background-image: url("img/logoBG.png"); background-repeat: repeat;  border-bottom: 1px solid black }
-.logo i     { height:24px; width: 24px; background-image: url(img/refresh.png); float: left; margin: 8px 0 8px 7px }
+.logo       { background-image: url("../img/logoBG.png"); background-repeat: repeat;  border-bottom: 1px solid black }
+.logo i     { height:24px; width: 24px; background-image: url(../img/refresh.png); float: left; margin: 8px 0 8px 7px }
 .logo img   { margin-left: 35px; margin-top: 4px; }
 
 .statistics     {  width: 100%; border-bottom: 2px solid #626261}
 
-.money          { background: url('img/money.jpg');float: left; width: 155px; height: 31px}
+.money          { background: url('../img/money.jpg');float: left; width: 155px; height: 31px}
 .money_text     { color: white; float: left; margin-top: 8px; margin-left: 37px; font-size: 13px; font-family: Arial, crisp, bold}
 .money_text2    { color: white; float: left; margin-top: 8px; margin-left: 45px; font-size: 13px; font-family: Arial, crisp, bold}
 
-.horse          { background: url('img/horse.jpg'); width: 155px; height: 31px; float: right;}
+.horse          { background: url('../img/horse.jpg'); width: 155px; height: 31px; float: right;}
 .horse_text     { color: white; float: left; margin-top: 8px; margin-left: 39px; font-size: 13px; font-family: Arial, crisp, bold}
 .horse_text2    { color: white; float: left; margin-top: 8px; margin-left: 42px; font-size: 13px; font-family: Arial, crisp, bold}
 
-.progress       { background: url('img/arrow.jpg'); width: 316px; height: 32px; display: inline-block; clear: both; margin-bottom: 5px}
+.progress       { background: url('../img/arrow.jpg'); width: 316px; height: 32px; display: inline-block; clear: both; margin-bottom: 5px}
 .progress p     { color: white; margin-top: 8px; margin-left: 35px; font-size: 13px; font-family: Arial, crisp, bold}
 
 
-.nav     { background-image: url("img/nav.jpg"); height: 27px; padding-top: 2px; overflow: hidden}
+.nav     { background-image: url("../img/nav.jpg"); height: 27px; padding-top: 2px; overflow: hidden}
 .nav a   { text-decoration: none; color: #303030; padding-left: 15px; padding-right: 22px; padding-top: 15px; font-size: 14px}
 
 /*Main*/
-.proposal       { position: relative; background-image: url("img/proposal_BG.png"); background-repeat: repeat; }
+.proposal       { position: relative; background-image: url("../img/proposal_BG.png"); background-repeat: repeat; }
 .proposal img   { float: left; margin: 6px 3px 8px 6px}
 
 .details        { float: right; margin-right: 6px;}
 .details a      { text-decoration: none; color: #82c2e6; font-size: 16px; font-family: Arial }
 .details h5     { margin: 5px 0 7px 21px; font-family: Arial, regular; font-size: 14px}
 
-.chat           { background-image: url('img/chat.jpg'); height: 62px; width: 221px}
+.chat           { background-image: url('../img/chat.jpg'); height: 62px; width: 221px}
 .chat p         { color: white; font-size: 12px; padding: 7px 7px 7px 23px; margin: 0; font-family: Arial, regular, strong}
 
 .map            { position: relative}
@@ -53,16 +53,16 @@ h5          {margin: 0}
 
 
 .navPanel  {background-color: #363636; background-repeat: repeat }
-.diller      { height: 26px; width: 130px; background-image: url('img/dillerBG.jpg');display: inline-block; float: left;
+.diller      { height: 26px; width: 130px; background-image: url('../img/dillerBG.jpg');display: inline-block; float: left;
                margin-top: 5px; margin-left: 4px; padding-top: 5px;}
 .diller a    { text-decoration: none; color: #3B85AF; margin-left: 40px;  font-size: 13px; font-family: Myriad Pro, regular, strong}
-.invite      { background: url("img/inviteBG.jpg"); width: 130px; height: 28px; display: inline-block; float: right; margin-top: 5px;
+.invite      { background: url("../img/inviteBG.jpg"); width: 130px; height: 28px; display: inline-block; float: right; margin-top: 5px;
                margin-right: 5px; padding-top: 5px;}
 .invite a    { text-decoration: none; color: #3B85AF; margin-left: 40px;  font-size: 13px; font-family: Myriad Pro, regular, strong;  }
-.button      { background: url("img/button.jpg"); width: 47px; height: 42px; display: inline-block; float: left; margin-top: 0;
+.button      { background: url("../img/button.jpg"); width: 47px; height: 42px; display: inline-block; float: left; margin-top: 0;
                margin-left: 3px;}
 
-.profile     { background-image: url("img/profile.jpg"); height: 87px ; clear: both; position: relative}
+.profile     { background-image: url("../img/profile.jpg"); height: 87px ; clear: both; position: relative}
 .profile a   { color: white; position: absolute; text-decoration: none; font-size: 14px; font-family: Arial, regular, strong}
 #Events      { left: 29px; top: 15px;}
 #Mail        { left: 239px; top: 16px;}
@@ -74,7 +74,7 @@ footer       { position: relative}
 footer ul    { display: block; }
 footer ul li { display: inline; margin: 0 }
 footer a     {  padding-left: 7px; color:#c9c9c9; font-size: 13px; font: Arial;}
-footer i     { background: url("img/foter_img1.jpg"); width: 320px; height: 7px; display: inline-block; margin-top: -10px;
+footer i     { background: url("../img/foter_img1.jpg"); width: 320px; height: 7px; display: inline-block; margin-top: -10px;
                    position:absolute }
 .footer_info    { margin-left: 26px; margin-bottom: 16px}
 dt              { padding-left: 8px;}
@@ -82,7 +82,7 @@ dt, dl, dd      { display: inline; font: Arial; font-size: 12px; color: #c9c9c9;
 dd              { color: white; margin: 0;}
 
 .otherGames     { width: 290px; height: 28px; border: 2px solid #5399bd; border-radius: 8px; margin-top: 2px; margin-left: 13px;
-                  display: inline-block; background: url("img/foter_img2_bacground.jpg"); padding-top: 5px}
+                  display: inline-block; background: url("../img/foter_img2_bacground.jpg"); padding-top: 5px}
 .otherGames a   { color: #7ab9da ; text-decoration: none; padding-left: 105px; font-size: 14px; font-family: Arial, regular, crisp; margin-top: 9; padding-top: 10px}
 
 
